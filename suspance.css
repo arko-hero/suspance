@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/673862/pexels-photo-673862.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
+.logo img{
+    position: absolute;
+    width: 100px;
+    top: 2%;
+    left: 2%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin: 8px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+ul li{
+    padding: 20px;
+    font-family: 'Chango', cursive;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: red;
+    border:3px solid red;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+ul li:hover{
+    cursor: pointer;
+    color: black;
+    background: red;
+    box-shadow: 0 0 10px red,0 0 40px red,0 0 80px red;
+}
+.ss{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+h1{
+    font-size: 2cm;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 5px 5px ;
+    
+}
+h1:hover{
+    cursor: pointer;
+    color: black;
+    background: red;
+    border-radius: 15px;
+    box-shadow: 0 0 10px red,0 0 40px red,0 0 80px red;
+}
+.ss p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(236, 46, 46);
+}
+.ss p:hover{
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black,0 0 40px black,0 0 80px black;
+}
+.ch{
+    position:absolute;
+    top: 60%;
+    right: 15%;
+}
+.ch p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: white;
+}
+.ch p:hover{
+    color: white;
+    border-radius: 15px;
+    background:  #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.vedios{
+    position: absolute;
+    top: 67%;
+    right: 2%;
+    display: flex;
+}
+
